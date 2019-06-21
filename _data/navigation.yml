@@ -4,7 +4,4 @@ main:
     url: /about/
   - title: "Posts"
     url: /year-archive/
-  - title: "Collections"
-    url: /collection-archive/
-  - title: "Terms &amp; Privacy Policy"
-    url: /terms/
+  
