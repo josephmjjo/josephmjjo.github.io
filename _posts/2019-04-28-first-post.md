@@ -1,8 +1,0 @@
----
-title: "Welcome to Jekyll!"
-date: 2017-10-20 08:26:28 -0400
-categories: 
----
-
-
-안녕하세요 블로그를 시작합니다.
