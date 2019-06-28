@@ -5,8 +5,11 @@ main:
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   - title: "Posts"
-    url: /posts/
+    url: /year-archive/
   #- title: "Collections"
   #  url: /collection-archive/
   - title: "DSandAL"
     url: /DSandAL/
+
+  #docs:
+  #  - title
