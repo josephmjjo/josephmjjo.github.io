@@ -1,11 +1,10 @@
 ---
-title:  "Welcome"
+title:  "What is Priority Queue?"
 search: false
 categories: 
   - DSandAL
 ---
 
-What is Priority Queue?
 
 Priority queue is an abstract data type which is like a regular queue or stack data structure, but where additionally each element has a "priority" associated with it.
 I think you should use "Heap" when you implement Priority Queue . because stack and queue have cons.
