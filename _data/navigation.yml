@@ -9,7 +9,7 @@ main:
   #- title: "Collections"
   #  url: /collection-archive/
   - title: "categories"
-    url: /category-archive/
+    url: https://myeongjang.github.io/categories/
 
   #docs:
   #  - title
