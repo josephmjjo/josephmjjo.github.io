@@ -12,9 +12,10 @@ stack has disadvantages that all of the values have to move if you add or remove
 cons of the queue are you can't find immediately location what you wish to remove or add 
 So usually, we should use "Binary Heap". 
 Heap has two kind of sort way. max heap  and min heap. 
-max heap must maximum 
+max heap must maximum value put the root of heap
+min heap is reverse of max heap. minimum value must put at  
 In book, we write AdaptablePriorityQueue ADT to use PriorityQueue.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1ODg5MDk3NywtMzcwNDI4NjY5XX0=
+eyJoaXN0b3J5IjpbLTIwNTQ2NTcyMTIsLTM3MDQyODY2OV19
 -->
