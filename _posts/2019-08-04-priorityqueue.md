@@ -11,10 +11,10 @@ I think you should use "Heap" when you implement Priority Queue . because stack 
 stack has disadvantages that all of the values have to move if you add or remove values
 cons of the queue are you can't find immediately location what you wish to remove or add 
 So usually, we should use "Binary Heap". 
-Heap has two kind of sort way. heap up  and heap down. 
-up-heap take
+Heap has two kind of sort way. max heap  and min heap. 
+max heap must maximum 
 In book, we write AdaptablePriorityQueue ADT to use PriorityQueue.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNTU5NjI1MiwtMzcwNDI4NjY5XX0=
+eyJoaXN0b3J5IjpbMjA1ODg5MDk3NywtMzcwNDI4NjY5XX0=
 -->
