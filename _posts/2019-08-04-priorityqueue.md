@@ -11,9 +11,9 @@ I think you should use "Heap" when you implement Priority Queue . because stack 
 stack has disadvantages that all of the values have to move if you add or remove values
 cons of the queue are you can't find immediately location what you wish to remove or add 
 So usually, we should use "Heap". 
-first 
+Heap has two kind of sort way. 
 In book, we write AdaptablePriorityQueue ADT to use PriorityQueue.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDI5OTgwNTAsLTM3MDQyODY2OV19
+eyJoaXN0b3J5IjpbMTYxNzM0OTUzMiwtMzcwNDI4NjY5XX0=
 -->
