@@ -35,6 +35,13 @@ It is common to view the evaluation of a has function, h(k), as consisting of tw
  Data Structures and Algorithms in Java by Michael T. Goodrich and Roberto Tamassia. [^resource2]
 [^resource2]: p411 of this book
 
+***
+
 ### Hash Codes
 
-The first action that a hash function perform is to take an arbitary key k in our map and compute an integer that is called the **hash code** for k; this integer need not be in the 
+The first action that a hash function perform is to take an arbitary key k in our map and compute an integer that is called the **hash code** for k; this integer need not be in the range [0,N-1], and may even be negative. We desire that the set of hash code assigned to our keys should avoid collision as much as possible. For if the hash codes of our keys cause collisions, then there is no hope for our compression function to avoid them.
+
+### Polynomial Hash Codes
+
+The summation and exclusive-or hash codes, described above, are not good choices for character strings or other variable-length objects that can be viewed as tuples of the form *(x0,x1,......,xn-1), where the order of the *xi*s is significant, For example, consider a 16-bit hash code for a chararcter string s that sums the Unicode values of the charachters in *s*. This hash code unfortunately produces lots of unwanted collisions for common groups of strings. In particular, "temp01" and "temp10" collide using this function, as do "stop", "tops", "pots", and "spot". A better hash code should somehow take into consideration the positions of the xi's. An altemative hash code., which does exactly this, is to choose a nonzero constant, a != 1, and use as a hash code the value
+> $$ x_0a^{n-1}$$
