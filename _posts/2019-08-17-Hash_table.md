@@ -17,7 +17,7 @@ Basic map operations get, put, and remove can be implemented in **O(1)** worst-c
 There are two challenges in extending this framework to the more general setting of a map. First, we may not wish to devote an array of length N if it is the case that N >> n. Second, we do not in general require that a map's keys be integers. The novel concept for a hash table is the use of a **hash function** to map general keys to corresponding indices in a table.
 We will conceptualize our table as a **bucket array**
 
-![Hash Table](images_4_posts/bucket_array.png)
+![Hash Table]({{site.url}}{{site.baseurl}}/assets/images/bucket_array.png)
 
 Data Structures and Algorithms in Java by Michael T. Goodrich and Roberto Tamassia. [^resource]
 [^resource]: p410 of this book
@@ -31,7 +31,7 @@ If there are two or more keys with the hash value, then two different entries wi
 It is common to view the evaluation of a has function, h(k), as consisting of two portions-a 
  **hash code** that maps a key k to an integer, and a **compression function** that maps the hash code to an integer within a range of indices, [0,N-1], for a bucket array. 
 
- ![hash code and compression](images_4_posts/hash_code_n_compression.png)
+ ![hash code and compression]({{site.url}}{{site.baseurl}}/assets/images/hash_code_n_compression.png)
  Data Structures and Algorithms in Java by Michael T. Goodrich and Roberto Tamassia. [^resource2]
 [^resource2]: p411 of this book
 
