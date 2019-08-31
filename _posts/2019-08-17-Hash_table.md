@@ -19,7 +19,7 @@ We will conceptualize our table as a **bucket array**
 
 ![Hash Table]({{site.url}}{{site.baseurl}}/assets/images/bucket_array.png)
 
-Data Structures and Algorithms in Java by Michael T. Goodrich and Roberto Tamassia. [^resource]
+Data Structures and Algorithms in Java by Michael T. Goodrich and Roberto Tamassia.[^resource]
 [^resource]: p410 of this book
 
 ## Hash Functions
@@ -32,7 +32,7 @@ It is common to view the evaluation of a has function, h(k), as consisting of tw
  **hash code** that maps a key k to an integer, and a **compression function** that maps the hash code to an integer within a range of indices, [0,N-1], for a bucket array. 
 
  ![hash code and compression]({{site.url}}{{site.baseurl}}/assets/images/hash_code_n_compression.png)
- Data Structures and Algorithms in Java by Michael T. Goodrich and Roberto Tamassia. [^resource2]
+ Data Structures and Algorithms in Java by Michael T. Goodrich and Roberto Tamassia.[^resource2]
 [^resource2]: p411 of this book
 
 ***
