@@ -1,6 +1,6 @@
 ---
 title: ISP란?
-search: false
+search: true
 category:
     - Network
 ---
