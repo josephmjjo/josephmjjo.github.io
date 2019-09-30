@@ -1,5 +1,5 @@
 ---
-title:  "그냥 트렌드 공부"
+title:  "구글 클라우드 기본 용어"
 search: true
 categories: 
   - Cloud, Kubernetes, GCP
