@@ -2,7 +2,7 @@
 title:  "구글 클라우드 기본 용어"
 search: true
 categories: 
-  - Cloud, Kubernetes, GCP
+  - Cloud, Kubernetes
 ---
 
 Zone이란 구글 클라우드 플랫폼 자원을 위한 배치 지역이다
