@@ -1,5 +1,5 @@
 ---
-title:  "구글 클라우드 앱엔진 비교 "
+title:  "GCP 기본적인 서비스"
 search: true
 categories: 
   - Cloud, Kubernetes
