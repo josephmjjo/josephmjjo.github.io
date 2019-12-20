@@ -1,5 +1,5 @@
 ---
-title:  "7층 레이어"
+title:  "AWS architect"
 search: true
 categories: 
   - Network
