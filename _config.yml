@@ -20,7 +20,7 @@ title                    : ""
 title_separator          : "-"
 name                     : "Myeongjang"
 description              : "Myeongjang blog."
-url                      : "https://myeongjang.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://josephmjjo.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : ""# the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -126,10 +126,8 @@ author:
       url: "https://www.facebook.com/jacobmjjo"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/myeongjang"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/jomyeongjang/"
+      url: "https://github.com/josephmjjo"
+    
 
 # Site Footer
 footer:
@@ -148,7 +146,7 @@ footer:
       url: "https://www.facebook.com/jacobmjjo"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/myeongjang"
+      url: "https://github.com/josephmjjo"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/joseph_mjjo/"
