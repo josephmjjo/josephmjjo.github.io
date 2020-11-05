@@ -1,12 +1,3 @@
----
-title: "Black Jack 코드 리"
-
-search: false
-categories: 
-  - TDD
----
-
-
 # blackjack 타인코드 분석
 
 ### 클래스들
