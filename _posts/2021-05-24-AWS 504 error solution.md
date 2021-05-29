@@ -35,4 +35,16 @@ categories:
 
 모니터링에서 어디 타겟 그룹인지 어디 서버인지 확인을 해야 한다.
 
-필자는 아파치 Keepalive 시간이 AWS 로드밸런서 유휴시간보다 짧은 것이 원인인 것을 확인했다.
+CloudWatch에서 ALB 지표 중 HTTPCode_ELB_504_Count지표의 합계가 급격하게 올라 간 것을 확인했다. 
+
+구글에 검색한 결과 하단의 링크에서 힌트를 얻을 수 있었다. 
+
+[Classic Load Balancer를 사용할 때 발생하는 HTTP 504 오류 해결](https://aws.amazon.com/ko/premiumsupport/knowledge-center/504-error-classic/)
+
+Keepalive가 5초였고 반면에  로드밸런서 유휴시간은 60초였다.
+
+응용프로그램의 시간제한 및 Keepalive 시간이 로드밸런서 시간보다는 높아야 한다. 
+
+그러하므로 AWS에서 권장하는 시간대로 설정 했다.
+
+그러하니 문제가 해결됐다.
