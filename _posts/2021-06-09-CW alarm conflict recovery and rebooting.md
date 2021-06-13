@@ -1,4 +1,3 @@
-
 ---
 
 title:  "AWS 인스턴스 장애 경보 재부팅과 회복 충돌"
@@ -7,7 +6,6 @@ search: true
 categories: 
   - AWS management diary
 ---
-
 
 
 
